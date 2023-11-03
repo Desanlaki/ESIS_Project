@@ -1,0 +1,124 @@
+body {
+    background-color: #dfbc2f;
+    height: 100%;
+    text-align: center;
+}
+
+/* .result-box-container {
+    padding-top: 20px;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 650px;
+    width: 600px;
+    margin-top: 3rem;
+    border-radius: 15px;
+} */
+
+/* .grid-container {
+    margin-left: 7rem;
+    display: grid;
+    grid-template-columns: 1fr;
+	grid-template-areas:
+		"a";
+} */
+
+.grid-container {
+    padding-top: 20px;
+    display: grid;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 650px;
+    width: 600px;
+    margin-top: 2rem;
+    margin-left: 30rem;
+    border-radius: 15px;
+  }
+
+.input-container-item {
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    border-radius: 15px;
+	width: 570px;
+    height: 511px;
+    padding: 20px;
+    padding-top: 3rem;
+}
+
+.scroll-item {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+	width: 560px;
+	height: 501px;
+	overflow-y: scroll;
+    overflow-x: hidden;
+	padding: 1rem;
+}
+
+.back-btn {
+    margin-top: 3rem;
+	margin-bottom: 1rem;
+	background-color: #084587;
+	border-width: 2px;
+	border-radius: 5rem;
+}
+
+.back-btn:hover {
+	background-color: #aed1ff;
+	color: #084587;
+	border-width: 2px;
+	border-color: #084587;
+}
+
+.form-group {
+    margin-bottom: 40px;
+}
+
+ 
+.add-btn {
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+	background-color: #084587;
+	border-width: 2px;
+	border-radius: 5rem;
+}
+
+.add-btn:hover {
+	background-color: white;
+	color: #084587;
+	border-width: 2px;
+	border-color: #084587;
+}
+
+.clear-btn {
+	margin-left: 7rem;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+	border-radius: 5rem;
+	border-color: #084587;
+	color: #084587;
+	border-width: 2px;
+  background-color: #ffff;
+}
+
+.clear-btn:hover {
+	background-color: #084587;
+	color: white;
+}
+
+.classification {
+  margin-top: 3rem;
+}
+
+.classification h5{
+  display: inline; 
+  margin: 0;
+}
+
+.classification p{
+  display: inline;
+  margin-left: 5px;
+}
+
+.blue-hedding {
+    color: #084587;
+}
+
